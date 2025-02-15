@@ -27,7 +27,9 @@ sqlite3 (for database management)
 📁 Hospital Management System
 
   -> 📜 hospital_management.py  # Main application script
+  
   -> 📜 hospital_management.db   # SQLite database file
+  
   ─> 📜 README.md               # Project documentation
 
 🏃‍♂️ How to Run
