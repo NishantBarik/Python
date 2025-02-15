@@ -1,17 +1,57 @@
-**Full Stack Hospital Management System:**
-Set Up Flask as the Back-End: Flask will handle requests, interact with the database, and serve HTML pages.
-Create Front-End HTML Forms: Users will input data via HTML forms for adding patients, generating bills, and viewing patient details.
-CSS Styling: Use basic CSS for better styling to make the interface attractive.
-Connect Flask with SQLite: Use SQLite to store patient and billing data, which is accessible via Flask routes.
+**Hospital Management System**
 
-hospital_management/
-│
-├── app.py                # Flask back-end logic
-├── templates/            # HTML files (front-end)
-│   ├── index.html        # Home page
-│   ├── add_patient.html  # Form to add patient
-│   ├── generate_bill.html# Form to generate a bill
-│   └── show_patient.html # Show patient details
-└── static/               # CSS and images (front-end)
-    └── style.css
+📌 Overview
+
+The Hospital Management System is a Python-based application designed to streamline hospital operations, including patient management and billing. This project integrates Python and SQLite to provide a structured and efficient solution for healthcare institutions.
+
+🚀 Features
+
+📋 Patient Management: Register new patients, update details, and maintain records.
+
+💰 Billing System: Generate and manage invoices for medical services.
+
+📊 Database Integration: Uses SQLite for structured data storage and retrieval.
+
+🛠️ Tech Stack
+
+Programming Language: Python 🐍
+
+Database: SQLite 🗄️
+
+Libraries Used:
+
+sqlite3 (for database management)
+
+📂 Project Structure
+
+📁 Hospital Management System
+
+  -> 📜 hospital_management.py  # Main application script
+  -> 📜 hospital_management.db   # SQLite database file
+  ─> 📜 README.md               # Project documentation
+
+🏃‍♂️ How to Run
+
+**1.** Clone the repository:
+
+git clone https://github.com/yourusername/hospital-management-system.git
+
+**2.** Navigate to the project folder:
+
+cd hospital-management-system
+
+**3.** Run the Python script:
+
+python hospital_management.py
+
+
+
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+📬 Contact
+
+For any queries, reach out at: [bariknishant10@gmail.com] or [www.linkedin.com/in/nishantbarik].
 
