@@ -34,15 +34,15 @@ sqlite3 (for database management)
 
 **1.** Clone the repository:
 
-git clone https://github.com/yourusername/hospital-management-system.git
+https://github.com/NishantBarik/Python.git
 
 **2.** Navigate to the project folder:
 
-cd hospital-management-system
+cd Hospital_Management
 
 **3.** Run the Python script:
 
-python hospital_management.py
+python Hospital_Management.py
 
 
 
